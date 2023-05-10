@@ -18,41 +18,68 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <main id="component">
-      <section id="results">
-        <p>Your result</p>
-        <div id="circle">
-          <p>76<span>of 100</span></p>
+  <body class="bg-pale-blue d-flex align-items-center justify-content-center">
+    <main id="component" class="d-flex flex-sm-row flex-column bg-white p-0">
+      <section
+        id="results"
+        class="flex-grow-1 text-center gradient-bg-primary rounded-sm-bottom-5 rounded-bottom-5"
+      >
+        <h1 class="text-lavender my-4 h5">Your result</h1>
+        <div
+          id="circle"
+          class="d-flex justify-content-center align-items-center gradient-bg-secondary rounded-circle m-auto"
+        >
+          <p class="m-0 font-very-big text-white">
+            76<span class="d-block h6 text-lavender m-0">of 100</span>
+          </p>
         </div>
-        <h1>Great</h1>
-        <p>
+        <p class="font-big text-white mt-4 mb-0">Great</p>
+        <p class="text-lavender h6 mb-5 px-5">
           Great You scored higher than 65% of the people who have taken these
           tests.
         </p>
       </section>
-      <section id="summary">
-        <div class="box">
+      <section id="summary" class="flex-grow-1 px-4">
+        <h2 class="text-gray-blue text-sm-start text-center my-4 h5">
+          Summary
+        </h2>
+        <div class="box d-flex align-items-center p-3 mb-3 rounded-3 bg-red">
           <img src="./images/icon-reaction.svg" alt="" />
-          <p>Reaction</p>
-          <p>80<span>/100</span></p>
+          <p class="m-0 px-2 text-red">Reaction</p>
+          <p class="m-0 ms-auto h6">
+            80<span class="px-2 text-black-50">/</span
+            ><span class="text-black-50">100</span>
+          </p>
         </div>
-        <div class="box">
+        <div class="box d-flex align-items-center p-3 mb-3 rounded-3 bg-yellow">
           <img src="./images/icon-memory.svg" alt="" />
-          <p>Memory</p>
-          <p>92<span>/100</span></p>
+          <p class="m-0 px-2 text-yellow">Memory</p>
+          <p class="m-0 ms-auto h6">
+            92<span class="px-2 text-black-50">/</span
+            ><span class="text-black-50">100</span>
+          </p>
         </div>
-        <div class="box">
+        <div class="box d-flex align-items-center p-3 mb-3 rounded-3 bg-green">
           <img src="./images/icon-verbal.svg" alt="" />
-          <p>Verbal</p>
-          <p>61<span>/100</span></p>
+          <p class="m-0 px-2 text-green">Verbal</p>
+          <p class="m-0 ms-auto h6">
+            61<span class="px-2 text-black-50">/</span
+            ><span class="text-black-50">100</span>
+          </p>
         </div>
-        <div class="box">
+        <div class="box d-flex align-items-center p-3 rounded-3 bg-blue">
           <img src="./images/icon-visual.svg" alt="" />
-          <p>Visual</p>
-          <p>72<span>/100</span></p>
+          <p class="m-0 px-2 text-blue">Visual</p>
+          <p class="m-0 ms-auto h6">
+            72<span class="px-2 text-black-50">/</span
+            ><span class="text-black-50">100</span>
+          </p>
         </div>
-        <button>Continue</button>
+        <button
+          class="cta rounded-pill p-3 my-4 w-100 border-0 h6 bg-gray-blue text-white"
+        >
+          Continue
+        </button>
       </section>
     </main>
     <footer></footer>
