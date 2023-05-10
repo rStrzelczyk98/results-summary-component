@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [summary component]()
+- Live Site URL: [summary component](https://rstrzelczyk98.github.io/results-summary-component/)
 
 ### Built with
 
