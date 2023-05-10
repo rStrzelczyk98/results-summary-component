@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+:root {
+  --light-red: #ff5757;
+  --orangey-yellow: #ffb01f;
+  --green-teal: #00bd91;
+  --Cobalt-blue: #1125d4;
+
+  --white: #ffffff;
+  --pale-blue: #ebf1ff;
+  --light-lavender: #c8c7ff;
+  --dark-gray-blue: #303b5a;
+
+  --gradient-primary: linear-gradient(180deg, #7857ff, #2e2be9);
+  --gradient-secondary: linear-gradient(180deg, #4e21ca, #2421ca00);
+}
