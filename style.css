@@ -89,6 +89,9 @@ body {
 .cta:hover {
   background: var(--gradient-primary);
 }
+.link:is(:hover, :active) {
+  color: var(--Cobalt-blue);
+}
 
 @media screen and (min-width: 576px) {
   main {
